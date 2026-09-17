@@ -9,7 +9,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"restapi/todo"
+	"restapi/internal/todo"
 )
 
 type HTTPHandlers struct {

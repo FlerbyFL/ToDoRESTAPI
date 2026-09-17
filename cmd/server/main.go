@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"restapi/http"
-	"restapi/todo"
+	"restapi/internal/http"
+	"restapi/internal/todo"
 )
 
 func main() {
