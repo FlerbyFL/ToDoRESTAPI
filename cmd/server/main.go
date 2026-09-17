@@ -13,7 +13,7 @@ func main() {
 	httpSrever := http.NewHTTPServer(httpHandlers)
 
 	if err := httpSrever.StartServer(); err != nil {
-		fmt.Println("failde to start server", err)
+		fmt.Println("failed to start server", err)
 	}
 
 }
